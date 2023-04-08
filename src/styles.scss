@@ -2,9 +2,11 @@
 @import "primeng/resources/themes/lara-light-blue/theme.css";
 @import "primeng/resources/primeng.css";
 @import "primeicons/primeicons.css";
+/* Importing Bootstrap SCSS file. */
+@import "bootstrap/scss/bootstrap";
 
 $font-family: "Assistant", sans-serif;
 
 body {
-  font: 100% $font-family;
+  font: 100% $font-family !important;
 }
