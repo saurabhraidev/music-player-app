@@ -8,6 +8,10 @@ import { PlayerComponent } from './player/player.component';
 import { AppHomeComponent } from './app-home/app-home.component';
 import { AppMusicInfoComponent } from './app-music-info/app-music-info.component';
 import { ShareMenuSidebarComponent } from './share-menu-sidebar/share-menu-sidebar.component';
+import { MenuItemContent, MenuModule } from 'primeng/menu';
+import { MenubarModule } from 'primeng/menubar';
+import { MenuItem } from 'primeng/api';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -16,13 +20,10 @@ import { ShareMenuSidebarComponent } from './share-menu-sidebar/share-menu-sideb
     PlayerComponent,
     AppHomeComponent,
     AppMusicInfoComponent,
-    ShareMenuSidebarComponent
+    ShareMenuSidebarComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule, MenuModule, MenubarModule, NgbModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
