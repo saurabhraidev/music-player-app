@@ -1,0 +1,15 @@
+::ng-deep {
+  .music-player-main {
+    display: flex;
+    border: 3px solid black;
+    border-radius: 13px;
+    height: 5rem;
+    width: 60rem;
+  }
+
+  .music-player-main .music-player-buttons {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+}
