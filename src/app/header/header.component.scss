@@ -1,4 +1,11 @@
 ::ng-deep {
+  .header-menu-main {
+    background-color: rgba(50, 45, 45, 0.5);
+  }
+
+  .music-player-text {
+    padding-left: 4%;
+  }
   .centered-menu {
     justify-content: center !important;
   }
