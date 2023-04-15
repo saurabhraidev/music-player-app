@@ -12,6 +12,7 @@ import { MenuItemContent, MenuModule } from 'primeng/menu';
 import { MenubarModule } from 'primeng/menubar';
 import { MenuItem } from 'primeng/api';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { PlayerMenuButtonsComponent } from './player-menu-buttons/player-menu-buttons.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     AppHomeComponent,
     AppMusicInfoComponent,
     ShareMenuSidebarComponent,
+    PlayerMenuButtonsComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, MenuModule, MenubarModule, NgbModule],
   providers: [],
